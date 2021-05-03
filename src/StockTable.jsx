@@ -142,7 +142,7 @@ const StockTable = ({ tableHeading, isSearch }) => {
                         </Button>
                       )}
                     </StyledTableCell>
-                    <StyledTableCell align="center">
+                    <StyledTableCell align="right">
                       {row["3. type"]}
                     </StyledTableCell>
                   </StyledTableRow>
