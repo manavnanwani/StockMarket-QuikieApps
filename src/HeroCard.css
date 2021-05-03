@@ -1,0 +1,65 @@
+.stock-card {
+  min-width: 250px;
+  border: 2px solid #e4dfdf;
+  border-radius: 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  color: black;
+}
+.stock-info1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stock-info1 h3 {
+  font-size: 1.2em;
+}
+.stock-card h4 {
+  font-weight: 500;
+}
+.stock-info2 .price {
+  font-size: 2.5em;
+}
+.card-img {
+  width: 50px;
+}
+
+.stock-cap {
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 1100px) {
+  .stock-card {
+    width: 200px;
+    min-width: 200px;
+    font-size: 0.7em;
+  }
+  .stock-info1 h3 {
+    font-size: 1.2em;
+  }
+  .card-img {
+    width: 30px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .stock-card {
+    width: 120px;
+    min-width: 120px;
+    font-size: 0.7em;
+  }
+  .stock-info1 {
+    flex-direction: column-reverse;
+  }
+  .stock-info2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .stock-card {
+    width: 70%;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  .stock-info1 {
+    flex-direction: row;
+  }
+}
